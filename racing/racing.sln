@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "racing.Plugins", "racing.Plugins.csproj", "{52C61E99-41E8-E9CE-F2F2-80A8D7397021}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "racing", "racing.csproj", "{C2FB72E7-2031-4716-56F8-A625A89FCF5C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "racing.Editor.Plugins", "racing.Editor.Plugins.csproj", "{A6E9E8B1-9A84-9141-CC49-CDE36D742DE2}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{52C61E99-41E8-E9CE-F2F2-80A8D7397021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C61E99-41E8-E9CE-F2F2-80A8D7397021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C61E99-41E8-E9CE-F2F2-80A8D7397021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FB72E7-2031-4716-56F8-A625A89FCF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FB72E7-2031-4716-56F8-A625A89FCF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FB72E7-2031-4716-56F8-A625A89FCF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FB72E7-2031-4716-56F8-A625A89FCF5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A6E9E8B1-9A84-9141-CC49-CDE36D742DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A6E9E8B1-9A84-9141-CC49-CDE36D742DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6E9E8B1-9A84-9141-CC49-CDE36D742DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU

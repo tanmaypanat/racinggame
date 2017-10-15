@@ -109,9 +109,6 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -123,6 +120,10 @@
     <ProjectReference Include="racing.Plugins.csproj">
       <Project>{52C61E99-41E8-E9CE-F2F2-80A8D7397021}</Project>
       <Name>racing.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="racing.csproj">
+      <Project>{C2FB72E7-2031-4716-56F8-A625A89FCF5C}</Project>
+      <Name>racing</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
