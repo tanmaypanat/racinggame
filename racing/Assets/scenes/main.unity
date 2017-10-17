@@ -498,6 +498,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1306765192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1306765193}
+  m_Layer: 0
+  m_Name: BulletShooter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1306765193
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1306765192}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -142.82217, y: 170.76611, z: 46.505123}
+  m_LocalScale: {x: 333.33322, y: 333.3332, z: 333.3332}
+  m_Children: []
+  m_Father: {fileID: 1614283318}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1430497103 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100042, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 2}
@@ -544,7 +572,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a371c60f12a5e0142877f719fa6dec82, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a371c60f12a5e0142877f719fa6dec82, type: 3}
       propertyPath: m_LocalRotation.y
@@ -598,9 +626,35 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 97af6a9612cac5745a735e5225d42fec, type: 2}
+    - target: {fileID: 400000, guid: a371c60f12a5e0142877f719fa6dec82, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a371c60f12a5e0142877f719fa6dec82, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1614283317 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: a371c60f12a5e0142877f719fa6dec82, type: 3}
+  m_PrefabInternal: {fileID: 1575594228}
+--- !u!4 &1614283318 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: a371c60f12a5e0142877f719fa6dec82, type: 3}
+  m_PrefabInternal: {fileID: 1575594228}
+--- !u!114 &1614283319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1614283317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc03537c287485f4595a950aff227f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletShooter: {fileID: 1306765192}
+  Bullet: {fileID: 1994966908278638, guid: d22427c8165aee7489753cb57ca22f9b, type: 2}
+  BulletForce: 90
 --- !u!1001 &1655233884
 Prefab:
   m_ObjectHideFlags: 0

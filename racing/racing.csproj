@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\GunScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Lowpoly_Sports_Car_2_in_1\readme.txt" />
